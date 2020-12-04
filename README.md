@@ -1,10 +1,16 @@
 # react-native-custom-alphabetflatlist
 
 A Flatlist with alphabet sidebar.
+
 When the list doesnt have items with letter you pressed on, onPressLetterWithNoMatches is called
     this.props.onPressLetterWithNoMatches
+    
 After the list is scrolled to items with letter you pressed on, onPressLetter is called
     this.props.onPressLetter
+    
+## Install
+
+npm install react-native-custom-alphabetflatlist --save
 
 ## Usage
 
