@@ -1,4 +1,4 @@
-# react-native-alphabetflatlist
+# react-native-custom-alphabetflatlist
 
 A Flatlist with alphabet sidebar.
 When the list doesnt have items with letter you pressed on, onPressLetterWithNoMatches is called
@@ -9,7 +9,7 @@ After the list is scrolled to items with letter you pressed on, onPressLetter is
 ## Usage
 
 ```
-    import AlphabetFlatList from 'react-native-flatlist'
+    import AlphabetFlatList from 'react-native-custom-alphabetflatlist'
 
     /* inside your render function */
     <AlphabetFlatList
@@ -21,9 +21,9 @@ After the list is scrolled to items with letter you pressed on, onPressLetter is
 
 ## Example
 
-Please check the [example](https://github.com/ayushnawani/react-native-alphabetflatlist/blob/master/example/AlphabetFlatListExample.js) folder.
+Please check the [example](https://github.com/darknessproduction/react-native-custom-alphabetflatlist/blob/master/example/AlphabetFlatListExample.js) folder.
 
-![](https://github.com/ayushnawani/react-native-alphabetflatlist/blob/master/example/demo.gif)
+![](https://github.com/darknessproduction/react-native-custom-alphabetflatlist/blob/master/example/demo.gif)
 
 ## Props
 
@@ -38,4 +38,4 @@ You can use all the props provided by FlatList.
 | getItemLayout              | function |                                                                                                                                                                                                     | YES      |
 | mainFlatListContainerStyle | object   | {}                                                                                                                                                                                                  |          |
 | alphabetListProps          | object   | { <br>&ensp;alphabetListContainerStyle: {},<br>&ensp;alphabetButtonStyle: {},<br>&ensp;selectedAlphabetButtonStyle: {},<br>&ensp;alphabetTextStyle: {},<br>&ensp;selectedAlphabetTextStyle: {}<br>} |          |
-| matchFieldName             | string   | false                                                                                                                                                                                               |          | If data array contains object then pass a field name whose value you want to show on main list. See [Issue #2](https://github.com/ayushnawani/react-native-alphabetflatlist/issues/2). |
+| matchFieldName             | string   | false                                                                                                                                                                                               |          | If data array contains object then pass a field name whose value you want to show on main list. See [Issue #2](https://github.com/darknessproduction/react-native-custom-alphabetflatlist/issues/2). |
