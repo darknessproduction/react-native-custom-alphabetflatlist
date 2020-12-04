@@ -16,7 +16,7 @@ import {
   Platform
 } from 'react-native'
 
-import AlphabetFlatList from 'react-native-alphabetflatlist'
+import AlphabetFlatList from 'react-native-custom-alphabetflatlist'
 import names from './name'
 
 const { width, height } = Dimensions.get('window')

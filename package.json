@@ -1,5 +1,5 @@
 {
-  "name": "react-native-alphabetflatlist",
+  "name": "react-native-custom-alphabetflatlist",
   "version": "1.0.6",
   "main": "index.js",
   "directories": {
@@ -17,7 +17,7 @@
   "description": "A Flatlist with alphabet sidebar.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/darknessproduction/react-native-custom-alphabetflatlist.git"
+    "url": "git+https://github.com/darknessproduction/react-native-custom-alphabetflatlist.git"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
@@ -26,5 +26,9 @@
     "test": "echo \"Error: no test specified\""
   },
   "author": "Ilya Darq <ilya@sarzhevsky.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darknessproduction/react-native-custom-alphabetflatlist/issues"
+  },
+  "homepage": "https://github.com/darknessproduction/react-native-custom-alphabetflatlist#readme"
 }
