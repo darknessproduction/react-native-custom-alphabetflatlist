@@ -82,7 +82,10 @@ export default class AlphabetFlatList extends Component {
       let letterToMatch = matchFieldName ? item[matchFieldName][0] : item[0]
       return letterToMatch.toUpperCase() === selectedItem
     })
-    if (matchedIndex === -1) return
+    if (matchedIndex === -1) {
+      this.props.onPressLetterWithNoMatches && this.props.onPressLetterWithNoMatches(selectedItem)
+      return
+    }
     this._mainList.scrollToIndex({
       animated: true,
       index: matchedIndex,
