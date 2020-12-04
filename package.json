@@ -17,7 +17,7 @@
   "description": "A Flatlist with alphabet sidebar.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayushnawani/react-native-alphabetflatlist.git"
+    "url": "https://github.com/darknessproduction/react-native-custom-alphabetflatlist.git"
   },
   "dependencies": {
     "prop-types": "^15.6.0"
